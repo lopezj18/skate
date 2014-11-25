@@ -1,0 +1,111 @@
+
+.cart{
+	width:95%;
+	margin:0 auto;
+	float:none;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
+	margin-top:10px;
+	overflow:hidden;
+}
+.progress{
+	float:none;
+	margin-bottom:20px;
+	margin:0 auto;
+	width:96.6%;
+}
+.whats-in-cart{
+	color:#333;
+	padding:10px 0;
+}
+.progress_container{
+	margin:32px 16% 0;
+	float:left;
+}
+@media screen and (min-width:0px) and (max-width:590px){
+.back-next-btn{
+	margin: 18px 18px 0;
+	float:left;
+	padding:14px 0;
+	width:36%;
+}
+.wrapper{
+	padding-bottom: 25px;
+}
+}
+@media screen and (min-width:590px){
+
+.in_cart{
+
+	padding:10px 15px 8px;
+	float:left;	
+	
+}
+.cart{
+	
+	width:85%;
+	margin-top:50px;
+}
+.progress{
+	width:86.5%;
+	margin-top:0;
+	margin-bottom:88px;
+}
+.back-next-btn{
+	margin: 25px 67px 0;
+}
+.progress_container{
+	margin:32px 20% 0px;
+}
+}
+@media screen and (min-width:760px){
+.cart{
+	margin-top:90px;
+	
+}
+.progress_container{
+	margin:32px 4% 20px;
+}
+.back-next-btn{
+	margin: 25px 98px 0;
+}
+}
+@media screen and (min-width:850px){
+
+.cart{
+	width:70%;
+	margin-top:90px;
+	
+}
+.progress{
+	width:71%;
+	margin-top:0;
+	padding-bottom:88px
+}
+.progress_container{
+	margin:32px 7% 25px 0;
+}
+.back-next-btn{
+	margin: 25px 88px 0;
+}
+@media screen and (min-width:1100px){
+.wrapper{
+	padding-bottom:35px;
+}
+.cart{
+	width:60%;
+	overflow:hidden;
+}
+.progress{
+	width:61%;
+	margin-top:0;
+	padding-bottom:88px;
+}
+.back-next-btn{
+	margin: 25px 112px 0;
+}
+.progress_container{
+	margin:32px 6% 0;
+}
+	
+}

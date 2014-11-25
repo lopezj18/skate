@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1.0,width=device-width,maximum-scale=1,minimum-scale=1,user-scalable=no" /><meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/buttons.css">
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.css" />
+<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.themes.css" media="all and (min-width: 900px)" />
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link rel="stylesheet" type="text/css" href="css/cart.css">
+<script src="js/myscript.js"></script>
+<script src="js/cookie_code.js"></script>
+<script src="js/cart-init.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu({
+					classes: 'mm-light'
+				});
+			});
+		</script>
+
+<title>Skate-n-Shred | Cart</title>
+</head>
+
+<body class="clearfix">
+<div id="page">
+<header class="head clearfix"><a href="index.html"><div class="logo_holder"><img class="logo" src="graphics/logo1.png" width="308" height="76" alt="logo"></div></a>
+<a href="#menu" id="menubtn"></a>
+<nav class="lrgnav">
+	<ul class="nav">
+    	<li class="nav-li"><a href="index.html" class="a-nav">Home</a></li>
+        <li class="nav-li"><a href="griptape.html" class="a-nav" >Grip Tape</a></li>
+        <li class="nav-li"><a href="deck.html" class="a-nav" >Deck</a></li>
+        <li class="nav-li"><a href="design.html" class="a-nav" >Design</a></li>
+        <li class="nav-li"><a href="wheels.html" class="a-nav" >Wheels</a></li>
+        <li class="nav-li"><a href="cart.html" class="active a-nav" >Cart</a></li>
+    </ul>
+</nav>
+</header>
+<nav id="menu">
+	<ul class="nav">
+    	<li class="nav-li"><a href="index.html" class="a-nav">Home</a></li>
+        <li class="nav-li"><a href="griptape.html" class="a-nav" >Grip Tape</a></li>
+        <li class="nav-li"><a href="deck.html" class="a-nav" >Deck</a></li>
+        <li class="nav-li"><a href="design.html" class="a-nav" >Design</a></li>
+        <li class="nav-li"><a href="wheels.html" class="a-nav" >Wheels</a></li>
+        <li class="nav-li"><a href="cart.html" class="active a-nav" >Cart</a></li>
+    </ul>
+</nav>
+
+<div class="wrapper clearfix">
+
+
+<section class="cart">
+
+<h2 class="whats-in-cart">Here's Whats in your cart</h2>
+<div class="in_cart">
+    <h3>Grip Tape</h3>
+    <p id="cart_grip_img">No Selection yet</p>
+    <p id="cart_grip_name" class="cart_price"></p>
+    <p id="cart_grip_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+    <h3>Deck</h3>
+    <p id="cart_deck_img">No Selection yet</p>
+    <p id="cart_deck_name" class="cart_price"></p>
+    <p id="cart_deck_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Design</h3>
+	<p id="cart_design_img">No Selection yet</p>
+    <p id="cart_design_name" class="cart_price"></p>
+    <p id="cart_design_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Wheels</h3>
+	<p id="cart_wheel_img">No Selection yet</p>
+    <p id="cart_wheel_name" class="cart_price"></p>
+    <p id="cart_wheel_price" class="cart_price">$</p>
+</div>
+
+<h1 id="cart_total" class="cart_label">Total</h1>
+</section>
+
+<div class="progress">
+<h1>Your Skateboard so far</h1>
+<div class="progress_container">
+    <section class="skate_progress"  ><img id="progress_skateboard" src="graphics/skateboard_done_default.png"></section>
+    <section class="skate_progress" id="progress_grip" ></section>
+    <section class="skate_progress" id="progress_wheel" ></section>
+</div>
+
+<div class="progress_container">
+	<section class="skate_progress" ><img id="progress_board" src="graphics/blank_deck.png"></section>
+	<section class="skate_progress" id="progress_deck"></section>
+    <section class="skate_progress" id="progress_design"></section>
+</div>
+<a href="index.html" class="back_btn_holder back-next-btn">Back</a>
+<a href="../../portfolio.html" class="next_btn_holder back-next-btn">Finished</a>
+</div>
+</div>
+<footer> 
+	<p class="footer-p">&copy; Copyright Skate-n-Shred, Juan Lopez<br>
+    <a class="portfolio-link" href="../../portfolio.html">Click here</a> to go back to my portfolio</p>
+	</footer>
+    </div>
+</body>
+</html>

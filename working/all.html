@@ -1,0 +1,362 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/buttons.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<script src="js/myscript.js"></script>
+<script src="js/cookie_code.js"></script>
+<script src="js/init-grip.js"></script>
+<script src="js/init-color.js"></script>
+<script src="js/init-design.js"></script>
+<script src="js/init-wheels.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<title>Skate-n-Shred - Choose your grip tape!</title>
+</head>
+
+
+
+<body class="clearfix">
+<header class="head clearfix"><div class="logo_holder"><a href="index.html"><img class="logo" src="graphics/logo1.png" width="308" height="76" alt="logo"></a></div>
+<nav>
+	<ul>
+    	<li><a href="index.html">Home</a></li>
+        <li><a href="#anchor1">Grip</a></li>
+        <li><a href="#anchor2">Color</a></li>
+        <li><a href="#anchor3">Design</a></li>
+        <li><a href="#anchor4">Wheels</a></li>
+    </ul>
+</nav>
+</header>
+
+<div class="wrapper clearfix anchor1">
+
+<a name="anchor1"><h1>Choose Your Grip Tape!</h1></a>
+<a href="cart.html"><div class="cart_btn"></div></a>
+
+<section class="content">
+<article>
+<h2><a href="#" class="items">Blue Grip Tape</a></h2>
+	<img class="products" src="graphics/blue_grip.png">
+	<p class="description">Stylish Blue grip tape. Made from quality materials.</p>
+		<p class="price">Price:4.99</p>
+        <div id="grip_btn_1" class="add_btn"><a href="#"></a></div>
+</article>
+<article>
+<h2><a href="#" class="items">Green Grip Tape</a></h2>
+	<img class="products" src="graphics/green_grip.png">
+	<p class="description">Stylish Green grip tape. Made from quality materials.</p>
+		<p class="price">Price:5.99</p>
+        <div id="grip_btn_2" class="add_btn"><a href="#"></a></div>
+</article>
+<article>
+<h2><a href="#" class="items">Red Grip Tape</a></h2>
+	<img class="products" src="graphics/red_grip.png">
+	<p class ="description">Stylish Red grip tape. Made from quality materials.</p>
+		<p class="price">Price:6.49</p>
+       <div  id="grip_btn_3" class="add_btn"><a href="#"></a></div>
+</article>
+<div class="progress">
+<h1>Your Skateboard so far</h1>
+<section class="progress_container">
+    <section class="skate_progress"  ><img id="progress_skateboard" src="graphics/skateboard_done_default.png"></section>
+    <section class="skate_progress" id="progress_grip" ></section>
+    <section class="skate_progress" id="progress_wheels" ></section>
+</section>
+
+<section class="progress_container">
+	<section class="skate_progress" ><img id="progress_deck" src="graphics/blank_deck.png"></section>
+	<section class="skate_progress" id="progress_color"></section>
+    <section class="skate_progress" id="progress_design"></section>
+</section>
+<a href="index.html" class="back_btn_holder"><div class="back_btn"></div></a>
+<a href="color.html" class="next_btn_holder"><div class="next_btn"></div></a>
+</div>
+</section>
+
+<section class="cart">
+<h1 class="cart_label">Cart</h1>
+<div class="in_cart">
+    <h3>Grip Tape</h3>
+    <p id="cart_grip_img">No Selection yet</p>
+    <p id="cart_grip_name" class="cart_price"></p>
+    <p id="cart_grip_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+    <h3>Deck</h3>
+    <p id="cart_color_img">No Selection yet</p>
+    <p id="cart_color_name" class="cart_price"></p>
+    <p id="cart_color_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Design</h3>
+	<p id="cart_design_img">No Selection yet</p>
+    <p id="cart_design_name" class="cart_price"></p>
+    <p id="cart_design_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Wheels</h3>
+	<p id="cart_wheel_img">No Selection yet</p>
+    <p id="cart_wheel_name" class="cart_price"></p>
+    <p id="cart_wheel_price" class="cart_price">$</p>
+</div>
+
+<h1 id="cart_total" class="cart_label">Total</h1>
+</section>
+</div>
+
+
+<div class="wrapper clearfix anchor2">
+
+<a name="anchor2"><h1>Choose Your Deck Color!</h1></a>
+<a href="cart.html"><div class="cart_btn"></div></a>
+
+<section class="content">
+<article>
+<h2><a href="#">Blue Deck</a></h2>
+	<img class="products" src="graphics/blue_deck.png">
+	<p class="description">Stylish Blue deck. Made from quality materials.</p>
+		<p class="price">Price:25.99</p>
+        <div id="deck_btn_1" class="add_btn"></div>
+</article>
+<article>
+<h2><a href="#">Yellow Deck</a></h2>
+	<img class="products" src="graphics/yellow_deck.png">
+	<p class="description">Stylish Yellow grip tape. Made from quality materials.</p>
+		<p class="price">Price:34.99</p>
+        <div  id="deck_btn_2" class="add_btn"></div>
+</article>
+<article>
+<h2><a href="#">Red Deck</a></h2>
+	<img class="products" src="graphics/red_deck.png">
+	<p class ="description">Stylish Red grip tape. Made from quality materials.</p>
+		<p class="price">Price:30.49</p>
+       <div id="deck_btn_3" class="add_btn"></div>
+</article>
+<div class="progress">
+<h1>Your Skateboard so far</h1>
+<section class="progress_container">
+    <section class="skate_progress"><img id="progress_skateboard" src="graphics/skateboard_done_default.png"></section>
+    <section class="skate_progress" id="progress_grip" ></section>
+    <section class="skate_progress" id="progress_wheels" ></section>
+</section>
+
+<section class="progress_container">
+	<section class="skate_progress"><img id="progress_deck" src="graphics/blank_deck.png"></section>
+	<section class="skate_progress" id="progress_color"></section>
+    <section class="skate_progress" id="progress_design"></section>
+</section>
+<a href="index.html" class="back_btn_holder"><div class="back_btn"></div></a>
+<a href="color.html" class="next_btn_holder"><div class="next_btn"></div></a>
+</div>
+</section>
+
+
+<section class="cart">
+<h1 class="cart_label">Cart</h1>
+<div class="in_cart">
+    <h3>Grip Tape</h3>
+    <p id="cart_grip_img">No Selection yet</p>
+    <p id="cart_grip_name" class="cart_price"></p>
+    <p id="cart_grip_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+    <h3>Deck</h3>
+    <p id="cart_color_img">No Selection yet</p>
+    <p id="cart_color_name" class="cart_price"></p>
+    <p id="cart_color_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Design</h3>
+	<p id="cart_design_img">No Selection yet</p>
+    <p id="cart_design_name" class="cart_price"></p>
+    <p id="cart_design_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Wheels</h3>
+	<p id="cart_wheel_img">No Selection yet</p>
+    <p id="cart_wheel_name" class="cart_price"></p>
+    <p id="cart_wheel_price" class="cart_price">$</p>
+</div>
+
+<h1 id="cart_total" class="cart_label">Total</h1>
+</section>
+</div>
+
+
+
+<div class="wrapper clearfix anchor3">
+
+<a name="anchor3"><h1>Choose Your Design!</h1></a>
+<a href="cart.html"><div class="cart_btn"></div></a>
+
+<section class="content">
+<article>
+<h2><a href="#">Obey Design</a></h2>
+	<img class="products" src="graphics/obey_design.png">
+	<p class="description">Stylish obey design.</p>
+		<p class="price">Price:4.99</p>
+        <div id="design_btn_1" class="add_btn"></div>
+</article>
+<article>
+<h2><a href="#">Panda Design</a></h2>
+	<img class="products" src="graphics/panda_design.png">
+	<p class="description">Stylish panda design.</p>
+		<p class="price">Price:5.99</p>
+        <div id="design_btn_2" class="add_btn"></div>
+</article>
+<article>
+<h2><a href="#">Zombie Design</a></h2>
+	<img class="products" src="graphics/zombie_design.png">
+	<p class ="description">Stylish zombie design.</p>
+		<p class="price">Price:6.49</p>
+       <div id="design_btn_3" class="add_btn"></div>
+</article>
+
+
+<div class="progress">
+<h1>Your Skateboard so far</h1>
+<section class="progress_container">
+    <section class="skate_progress"><img id="progress_skateboard" src="graphics/skateboard_done_default.png"></section>
+    <section class="skate_progress" id="progress_grip" ></section>
+    <section class="skate_progress" id="progress_wheels" ></section>
+</section>
+
+<section class="progress_container">
+	<section class="skate_progress"><img id="progress_deck" src="graphics/blank_deck.png"></section>
+	<section class="skate_progress" id="progress_color"></section>
+    <section class="skate_progress" id="progress_design"></section>
+</section>
+<a href="index.html" class="back_btn_holder"><div class="back_btn"></div></a>
+<a href="color.html" class="next_btn_holder"><div class="next_btn"></div></a>
+</div>
+</section>
+
+
+
+<section class="cart">
+<h1 class="cart_label">Cart</h1>
+<div class="in_cart">
+    <h3>Grip Tape</h3>
+    <p id="cart_grip_img">No Selection yet</p>
+    <p id="cart_grip_name" class="cart_price"></p>
+    <p id="cart_grip_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+    <h3>Deck</h3>
+    <p id="cart_color_img">No Selection yet</p>
+    <p id="cart_color_name" class="cart_price"></p>
+    <p id="cart_color_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Design</h3>
+	<p id="cart_design_img">No Selection yet</p>
+    <p id="cart_design_name" class="cart_price"></p>
+    <p id="cart_design_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Wheels</h3>
+	<p id="cart_wheel_img">No Selection yet</p>
+    <p id="cart_wheel_name" class="cart_price"></p>
+    <p id="cart_wheel_price" class="cart_price">$</p>
+</div>
+
+<h1 id="cart_total" class="cart_label">Total</h1>
+</section>
+</div>
+
+
+<div class="wrapper clearfix anchor4">
+<a name="anchor4"><h1>Choose Your Wheels!</h1></a>
+<a href="cart.html"><div class="cart_btn"></div></a>
+
+<section class="content">
+<article>
+<h2><a href="#">Blue Wheels</a></h2>
+	<img class="products" src="graphics/blue_wheels.png">
+	<p class="description">blah blahhhh balh ablah blah blahhhh balh ablahblah blahhhh balh blah blah blahhhh blah blah</p>
+		<p class="price">Price:15.49</p>
+        <a href="#"  id="wheel_btn_1"><div class="add_btn"></div></a>
+</article>
+<article>
+<h2><a href="#">Red Wheels</a></h2>
+	<img class="products" src="graphics/red_wheels.png">
+	<p class="description">blah blahhhh balh ablah blah blahhhh balh ablahblah blahhhh balh blah blah blahhhh blah blah</p>
+		<p class="price">Price:12.99</p>
+        <a href="#"  id="wheel_btn_2"><div class="add_btn"></div></a>
+</article>
+<article>
+<h2><a href="#">Pink Wheels</a></h2>
+	<img class="products" src="graphics/pink_wheels.png">
+	<p class ="description">blah blahhhh balh ablah blah blahhhh balh ablahblah blahhhh balh blah blah blahhhh blah blah</p>
+		<p class="price">Price:10.95</p>
+       <a href="#"  id="wheel_btn_3"><div class="add_btn"></div></a>
+</article>
+
+<div class="progress">
+<h1>Your Skateboard so far</h1>
+<section class="progress_container">
+    <section class="skate_progress"><img id="progress_skateboard" src="graphics/skateboard_done_default.png"></section>
+    <section class="skate_progress" id="progress_grip" ></section>
+    <section class="skate_progress" id="progress_wheels" ></section>
+</section>
+
+<section class="progress_container">
+	<section class="skate_progress"><img id="progress_deck" src="graphics/blank_deck.png"></section>
+	<section class="skate_progress" id="progress_color"></section>
+    <section class="skate_progress" id="progress_design"></section>
+</section>
+<a href="index.html" class="back_btn_holder"><div class="back_btn"></div></a>
+<a href="color.html" class="next_btn_holder"><div class="next_btn"></div></a>
+</div>
+</section>
+
+
+<section class="cart">
+<h1 class="cart_label">Cart</h1>
+<div class="in_cart">
+    <h3>Grip Tape</h3>
+    <p id="cart_grip_img">No Selection yet</p>
+    <p id="cart_grip_name" class="cart_price"></p>
+    <p id="cart_grip_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+    <h3>Deck</h3>
+    <p id="cart_color_img">No Selection yet</p>
+    <p id="cart_color_name" class="cart_price"></p>
+    <p id="cart_color_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Design</h3>
+	<p id="cart_design_img">No Selection yet</p>
+    <p id="cart_design_name" class="cart_price"></p>
+    <p id="cart_design_price" class="cart_price">$</p>
+</div>
+
+<div class="in_cart">
+	<h3>Wheels</h3>
+	<p id="cart_wheel_img">No Selection yet</p>
+    <p id="cart_wheel_name" class="cart_price"></p>
+    <p id="cart_wheel_price" class="cart_price">$</p>
+</div>
+
+<h1 id="cart_total" class="cart_label">Total</h1>
+</section>
+</div>
+
+<script src="js/transition.js"></script>
+</body>
+</html>
